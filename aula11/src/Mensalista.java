@@ -29,7 +29,8 @@ public void imprimir(){
     System.out.println("Nome: " + getNome());
     System.out.println("Endereço: " + getEndereco());
     System.out.println("Cargo: " + getCargo());
-    System.out.println("Salario: " + calcularSalario());
+    System.out.println("Salario: " + getSalario());
     System.out.println("Valor Inss: " + calcularInss());
     System.out.println("Valor Irpf: " + calcularIRPF());
+    }
 }

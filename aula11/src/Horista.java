@@ -3,8 +3,8 @@ public class Horista extends Empregado{
     private double horas;
 
     // Construtor
-    public Horista(String n, String e, double h) {
-        super(n, e);
+    public Horista(String n, String e,double s, double h) {
+        super(n, s, e);
         horas = h;
 
     }
@@ -27,9 +27,9 @@ public class Horista extends Empregado{
     public void imprimir(){
         System.out.println("Nome: " + getNome());
         System.out.println("Endereço: " + getEndereco());
-        System.out.println("Salario: " + calcularSalario());
+        System.out.println("Salario: " + getSalario());
         System.out.println("Valor Inss: " + calcularInss());
         System.out.println("Valor Irpf: " + calcularIRPF());
-        
+
     }
 }
