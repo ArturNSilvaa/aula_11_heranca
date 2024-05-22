@@ -19,7 +19,7 @@ public class Mensalista extends Empregado{
             salario = 2500;
     } else if(cargo.equals("Pleno")){
         salario = 3500;
-    } else{
+    } else if(cargo.equals("Senior")){ 
         salario = 5500;
 
     }
@@ -30,7 +30,7 @@ public void imprimir(){
     System.out.println("Endereço: " + getEndereco());
     System.out.println("Cargo: " + getCargo());
     System.out.println("Salario: " + getSalario());
-    System.out.println("Valor Inss: " + calcularInss());
-    System.out.println("Valor Irpf: " + calcularIRPF());
+    System.out.printf("Valor Inss: %.2f\n" , calcularInss());
+    System.out.printf("Valor Irpf: %.2f\n" , calcularIRPF());
     }
 }

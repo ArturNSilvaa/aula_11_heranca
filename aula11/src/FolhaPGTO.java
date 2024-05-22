@@ -17,12 +17,12 @@ public class FolhaPGTO{
         men2.imprimir();
     
         // Empregado horistas
-        hora1 = new Horista("Carlos", "Rua xyz", 0, 20);
-        hora1.calcularSalario();
+        hora1 = new Horista("Carlos", "Rua xyz", 0, 20, 50);
+        hora1.calcularSalario(10);
         hora1.imprimir();
     
-        hora2 = new Horista("Cristina", "Rua do centro", 0, 100);
-        hora2.calcularSalario();
+        hora2 = new Horista("Cristina", "Rua do centro", 0, 100, 50);
+        hora2.calcularSalario(22);
         hora2.imprimir();
     
     }
