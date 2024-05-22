@@ -1,4 +1,4 @@
-public class Horista {
+public class Horista extends Empregado{
     
     private double horas;
 
@@ -30,6 +30,6 @@ public class Horista {
         System.out.println("Salario: " + calcularSalario());
         System.out.println("Valor Inss: " + calcularInss());
         System.out.println("Valor Irpf: " + calcularIRPF());
-
+        
     }
 }
