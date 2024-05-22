@@ -24,6 +24,6 @@ public class FolhaPGTO{
         hora2 = new Horista("Cristina", "Rua do centro", 0, 100, 50);
         hora2.calcularSalario(22);
         hora2.imprimir();
-    
+        // algo
     }
 }
